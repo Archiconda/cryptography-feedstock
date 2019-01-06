@@ -1,6 +1,8 @@
 About cryptography
 ==================
 
+[![Powered by NumFOCUS](https://img.shields.io/badge/powered%20by-NumFOCUS-orange.svg?style=flat&colorA=E1523D&colorB=007D8A)](http://numfocus.org)
+
 Home: https://github.com/pyca/cryptography
 
 Package license: Apache 2.0 or BSD 3-Clause, PSF 2
@@ -22,6 +24,7 @@ Current build status
 
 [![Linux,OSX](https://img.shields.io/circleci/project/github/conda-forge/cryptography-feedstock/master.svg?label=Linux,OSX)](https://circleci.com/gh/conda-forge/cryptography-feedstock)
 [![Windows](https://img.shields.io/appveyor/ci/conda-forge/cryptography-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/cryptography-feedstock/branch/master)
+[![linux-aarch64](https://img.shields.io/shippable/5c3295fad1578b0700304a0b/aarch64.svg?label=linux-aarch64)](https://app.shippable.com/github/Archiconda/cryptography-feedstock)
 
 Current release info
 ====================
@@ -109,3 +112,11 @@ In order to produce a uniquely identifiable distribution:
  * If the version of a package **is** being increased, please remember to return
    the [``build/number``](https://conda.io/docs/user-guide/tasks/build-packages/define-metadata.html#build-number-and-string)
    back to 0.
+
+Feedstock Maintainers
+=====================
+
+* [@jakirkham](https://github.com/jakirkham/)
+* [@jschueller](https://github.com/jschueller/)
+* [@ocefpaf](https://github.com/ocefpaf/)
+
